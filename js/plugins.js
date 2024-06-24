@@ -35,5 +35,8 @@ var $plugins =
 {"name":"EventInformation","status":true,"description":"イベントの頭上に文字を表示したい時に使います","parameters":{}},
 {"name":"OrangeMapshot","status":true,"description":"This plugin will save a picture of the entire map on a Mapshots folder when you press a key. <OrangeMapshot>","parameters":{"useMapName":"true","layerType":"0","drawAutoShadows":"true","drawEvents":"true","keyCode":"44","imageType":"png","imageQuality":"70","imagePath":"ダウンロード"}},
 {"name":"CommonInterceptor","status":true,"description":"割り込みコモンイベントプラグイン","parameters":{"ニューゲームコモン":"","ロードコモン":"399","メニューコモン":""}},
-{"name":"MPP_ChoiceEX","status":true,"description":"選択肢の機能を拡張します。","parameters":{"Max Page Row":"6","Disabled Position":"none","Choice Help Commands":"[\"ChoiceHelp\",\"<ChoiceHelp>\",\"選択肢ヘルプ\",\"<選択肢ヘルプ>\"]"}}
+{"name":"MPP_ChoiceEX","status":true,"description":"選択肢の機能を拡張します。","parameters":{"Max Page Row":"6","Disabled Position":"none","Choice Help Commands":"[\"ChoiceHelp\",\"<ChoiceHelp>\",\"選択肢ヘルプ\",\"<選択肢ヘルプ>\"]"}},
+{"name":"Lavra_Localization","status":true,"description":"The core plugin for localization, which contains all logic to load text and convert escape codes.\r\n<Iavra Localization Core>","parameters":{"Escape Code":"#{{key}}","Languages":"jp,tw","File Path":"data/locale_{lang}.json"}},
+{"name":"Lavra_LocalizationMenu","status":true,"description":"Adds a \"Language\" option to the options menu, that can be used to change game language on the fly.\r\n<Iavra Localization Menu>","parameters":{"Option Label":"#{lblLanguage}","Language Labels":"jp:日本語,tw:繁體中文"}},
+{"name":"Fullscreen_Options","status":true,"description":"auto fullscreen","parameters":{"fullscreenOptionName":"Fullscreen","forceFullscreen":"false","Add command to option?":"false","Disable F3?":"true","Disable F4?":"false"}}
 ];
